@@ -29,8 +29,8 @@ def img_url_to_base64(url):
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
-        [InlineKeyboardButton("Swap Face", callback_data="swap")],
-        [InlineKeyboardButton("Developer", url="https://t.me/YOUR_CHANNEL_LINK")]
+        [InlineKeyboardButton("☂️SWAP FACE☂️", callback_data="swap")],
+        [InlineKeyboardButton("☂️DEVELOPER☂️", url="https://t.me/+cc6Lt64HKXtmYmNl")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text(
